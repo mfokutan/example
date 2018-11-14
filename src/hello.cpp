@@ -39,7 +39,7 @@ int main()
 	Base &base2 = base;
 	base2.setA(40);
 	base2.displayA(); // 30
-	base.displayA(); // 20
+	//base.displayA(); // 20
 
 	return 0;
 }
