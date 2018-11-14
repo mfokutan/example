@@ -34,11 +34,11 @@ int main()
 	base.displayA(); // 20
 //	Base *base2 = &base;
 //	base2->setA(30);
-//	base2->displayA();
+	base2->displayA();
 
 	Base &base2 = base;
 	base2.setA(40);
-	base2.displayA(); // 30
+	//base2.displayA(); // 30
 	//base.displayA(); // 20
 
 	return 0;
