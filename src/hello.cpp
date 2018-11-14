@@ -35,10 +35,9 @@ int main()
 //	Base *base2 = &base;
 //	base2->setA(30);
 //	base2->displayA();
-//	base.displayA();
 
 	Base &base2 = base;
-	base2.setA(30);
+	base2.setA(40);
 	base2.displayA(); // 30
 	base.displayA(); // 20
 
