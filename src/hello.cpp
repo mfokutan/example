@@ -33,7 +33,7 @@ int main()
 	base.setA(20);
 	base.displayA(); // 20
 //	Base *base2 = &base;
-//	base2->setA(30);
+	base2->setA(30);
 	base2->displayA();
 
 	Base &base2 = base;
